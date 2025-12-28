@@ -6,7 +6,11 @@
 Для подключения библиотеки добавьте в HTML‑документ тег `<script>` со ссылкой на unpkg:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/qlaaq/memStorage/dist/memStorage.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qlaaq/memStorage/memStorage.js"></script>
+```
+или
+```html
+<script src="https://cdn.jsdelivr.net/gh/qlaaq/memStorage/memStorage.min.js"></script>
 ```
 
 **Размещение тега:**
@@ -16,7 +20,7 @@
 
 **Параметры URL:**
 - `memStorage@latest` — загрузка последней версии. Для фиксации версии укажите номер (например, `memStorage@1.0.0`).
-- `/dist/memStorage.min.js` — путь к оптимизированному файлу.
+- `/memStorage.min.js` — путь к оптимизированному файлу.
 
 #### 2. Проверка подключения
 
@@ -142,7 +146,7 @@ mem.tasks = mem.tasks.filter(task => task.id !== 2);
 
 Для перехода на новую версию измените номер версии в URL:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/qlaaq/memStorage@v1.0.0/dist/memStorage.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qlaaq/memStorage@v1.0.0/memStorage.min.js"></script>
 ```
 
 #### Заключение
